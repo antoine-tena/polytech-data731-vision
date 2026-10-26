@@ -1,10 +1,11 @@
 # kiln's answers for this project: never edit by hand, `kiln set` changes them.
-_commit: v0.4.5-9-g57522b7
+_commit: v0.4.9-169-gced9807
 _src_path: https://github.com/antoine-tena/kiln.git
 backend: data
 ci_runner: github
 compact_window: 400000
 created: '2026-10-10'
+deploy: none
 description: IA écrite à la main (NumPy) qui reconnaît les chiffres manuscrits ou
     imprimés.
 frontend: streamlit
