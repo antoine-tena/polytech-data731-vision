@@ -4,7 +4,7 @@ Project rules go in CLAUDE.md or in .claude/rules/ outside kiln/. -->
 
 IA écrite à la main (NumPy) qui reconnaît les chiffres manuscrits ou imprimés.
 
-Size: **Ember**, a small app or site, one or two people, low stakes (`kiln set size=…` changes it).
+Size: **Small**, a small app or site, one or two people, low stakes (`kiln set size=…` changes it).
 Backend Python data: polars or NumPy, marimo, Plotly in `backend/`, frontend Streamlit in `frontend/`.
 The repo is generated and kept current by [kiln](https://github.com/antoine-tena/kiln).
 
@@ -33,6 +33,9 @@ The repo is generated and kept current by [kiln](https://github.com/antoine-tena
 - `docs/backlog/` is the only up-to-date list of work: `backlog.md` (open tickets `T-NN` by
   priority, how to write them in its `README.md`), `done.md` (closed ones), `rejected.md` (what was turned down), `urgent.md`
   (what only a human of the team can do). Skill `/kiln:backlog`.
+- `.claude/`: committed, `settings.json`, `skills/` (the project's own skills), `rules/`,
+  `hooks/` (the scripts of its own hooks) and `plans/` (plan mode's plans); local, ignored by
+  git, `settings.local.json`, `worktrees/`, `memory/` and `sessions/`.
 - `charter.toml`: the checked rules and their budgets; `kiln-waivers.toml`: deliberate
   deviations; `.copier-answers.yml`: the project's settings for kiln (changed by `kiln set`,
   never by hand).
