@@ -4,7 +4,7 @@ version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
     "vision-backend",
-    "streamlit>=1.65.0,<2.0.0",
+    "streamlit>=1.67.0,<2.0.0",
 ]
 
 # The backend's data chain, imported as is ([COMPUTE-OUTSIDE-UI]).
